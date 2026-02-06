@@ -1,16 +1,30 @@
-# first_project_flutter
+# Flutter Profile Card
 
-A new Flutter project.
+This is my **first executable project using Flutter**!  
+I am currently learning Flutter, and this project marks my first hands-on attempt at building a functional app.
 
-## Getting Started
+## Project Overview
 
-This project is a starting point for a Flutter application.
+The app is a **profile card** that presents user information in a clean and visually appealing layout.  
+It leverages **Stack, Positioned, and Container widgets** to create a layered interface with background images, profile picture, and information cards.
 
-A few resources to get you started if this is your first Flutter project:
+### Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Responsive layout with `Stack` and `Positioned`.
+- Semi-transparent cards with customized colors using `Color.fromRGBO`.
+- Rounded profile picture.
+- Contact information with icons: phone, email, and location.
+- Social media links with interactive-looking icons (UI only).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Technologies Used
+
+- **Flutter & Dart**
+- Core widgets: `Stack`, `Container`, `Positioned`, `ListTile`, `Divider`, `Text`, `Image`.
+- Styling: `BoxDecoration`, `BorderRadius`, `Colors` with opacity.
+
+## Preview
+
+| Figma Design | My Flutter implementation |
+|:------------:|:-----------------:|
+| <img src="images/figma.PNG" alt="Figma Design" width="250"/> | <img src="images/final.PNG" alt="Flutter Profile Card" width="250"/> |
+
