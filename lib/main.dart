@@ -231,16 +231,16 @@ class HomePage extends StatelessWidget {
                             margin: EdgeInsets.all(10),
                             child: Image.asset(
                               "images/linkedin.png",
-                              width: 30,
-                              height: 30,
+                              width: 25,
+                              height: 25,
                               fit: BoxFit.contain,
                             ),
                           ),
                           SizedBox(width: 5),
                           Container(
                             margin: EdgeInsets.all(10),
-                            width: 30,
-                            height: 30,
+                            width: 25,
+                            height: 25,
                             child: ClipOval(
                               child: Image.asset(
                                 "images/web.png",
